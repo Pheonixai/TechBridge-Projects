@@ -1,0 +1,75 @@
+.whole {
+    display: flex;
+    margin: 10vw;
+}
+body {
+    background-color: aliceblue;
+}
+.ftext {
+    margin-top: -17px;
+    font-weight: lighter;
+}
+h6{
+    text-align: center;
+    color: rgb(14, 116, 240);
+    font-weight: bolder;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    font-family: Serif;
+}
+.line {
+    border: 1px ridge rgba(128, 128, 128, 0.25);
+}
+.text {
+    display: block;
+    margin: 100px;
+    font-weight: bolder;
+    max-width: 25vw;
+}
+h1 {
+    color: blue;
+    font-size: 2.3em;
+}
+.section2 {
+    background-color: white;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5.6px rgba(128, 128, 128, 0.5);
+    width: min(700px, 25vw);
+}
+.section {
+    display: block;
+}
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    color: blue;
+    justify-self: center;
+}
+#LogIn {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+#newacc {
+    background-color: rgb(81, 230, 81);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -0.2vw;
+}
+.word {
+    text-align: center;
+}

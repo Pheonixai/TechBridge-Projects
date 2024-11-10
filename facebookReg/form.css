@@ -1,0 +1,96 @@
+body {
+    background-color: whitesmoke;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.6);
+    padding: 10px;
+    border: 20px dotted;
+    background-color: white;
+}
+i {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+}
+.form {
+    padding: 20px;
+}
+div > p {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+div p {
+    text-align: left;
+    /* width: 100%; */
+}
+.line {
+    border: 1px solid grey;
+    /* visibility: hidden; */
+}
+/* .name {
+    justify-content: space-between;
+} */
+#name {
+    padding: 7px;
+    /* width: 13.7vw; */
+}
+select {
+    width: 120px;
+    border: 1.5px solid grey;
+    border-radius: 5px;
+    /* display: inline-block;
+    margin-right: 0.5vw; */
+    padding: 7px;
+}
+h4 {
+    margin-bottom: 7px;
+}
+option {
+    font-weight: bold;
+}
+.details{
+    /* width: 99%; */
+    align-items: flex-start;
+    /* margin: 0; */
+    padding: 5px;
+}
+a :hover {
+    color: white;
+}
+mark {
+    color: rgb(107, 107, 223);
+    background-color: white;
+}
+#submit {
+    width: 200px;
+    background-color: rgb(28, 167, 15);
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-left: 7vw; */
+}
+h3 {
+    color: rgb(107, 107, 223);
+    text-align: center;
+}
+.gender {
+    border: 1.5px solid grey;
+    padding: 5px;
+    /* margin-right: 0.5vw; */
+    width: 250px;
+    font-weight: bold;
+    display: inline;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+#gender {
+    /* margin-left: 3.5vw; */
+}
