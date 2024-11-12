@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form.css"/>
+    <link rel="stylesheet" href="SignUp.css"/>
     <title>Document</title>
 </head>
 <body>
+    <h1 id="text1">facebook</h1>
     <form class="center">
-        <h1>Create a new account</h1>
-        <div><p>Its quick and easy</p></div>
+        <div class="header">
+            <h1>Create a new account</h1>
+            <p>Its quick and easy</p>
+        </div>
         <div class="line"></div>
         <div class="form">
             <div id="name-section" class="name">
                 <input type="text" id="name" placeholder="First name"/>
                 <input type="text" id="name" placeholder="Surname"/>
             </div>
+            <small><h4>Date of birth  <i>?</i></h4></small>
             <div id="DOB">
-                <small><h4><bold>Date of birth  <i>?</i></bold></h4></small>
                 <select for="">
                     <option></option>
                     <option>17</option>
@@ -54,23 +57,23 @@
                     <option>2019</option>
                 </select>
             </div>
-            <div>
-                <small><h4>Gender <i>?</i></h4></small>
+            <small><h4>Gender <i>?</i></h4></small>
+            <div id="Genderdiv">
                 <div class="gender"><label for="gender">Female</label><input type="radio" id="gender" name="gender" class="Female"/></div>
                 <div class="gender"><label for="gender">Male</label><input type="radio" id="gender" class="Male" name="gender"/></div>
                 <div class="gender"><label for="gender">Custom</label><input type="radio" id="gender" class="Custom" name="gender"/></div>
             </div><br>
-            <div >
+            <div id="details">
                 <input type="text" class="details" placeholder="Mobile number or email address"/><br><br>
                 <input type="password" class="details" placeholder="New password"/>
             </div>
             <div>
                 <small><p>People who use our service may have uploaded your contact information to Facebook.<mark>Learn more.</mark><br><br>By clicking Sign Up, you agree to our <mark>Terms, Privacy Policy</mark>and <mark>Cookies Policy</mark>. You may receive SMS notifications from us and can apt out at any time.</p></small>
             </div>
-            <div>
+            <div class="submit">
                 <input type="submit" id="submit" value="Sign Up"/><br>
-                <h3>Already have an account?<h3>
-            </div>
+            </div>    
+            <h3>Already have an account?<h3>
         </div> 
         </div>
     </form>
