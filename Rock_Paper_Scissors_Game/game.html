@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Rock, Paper, Scissors game</title>
+    <link rel="stylesheet" href="game.css"/>
+</head>
+<body>
+    <main>
+        <h1>Automatic Rock, Paper, Scissors game</h1>
+        <p class="fun">Have a fun game with your computer!</p>
+        <h3>Pick One</h3>
+        <section>
+            <button id="rock" value="Rock"><b>Rock</b></button>
+            <button id="paper" value="Paper"><b>Paper</b></button>
+            <button id="scissors" value="Scissors"><b>Scissors</b></button>
+        </section>
+        <section>
+            <h5 id="YourPick"></h5>
+            <h5 id="ComputerPick"></h5>
+        </section>
+        <div id="result"></div>
+        <section>
+            <p class="score" id="yourScore">Your Score : </p>
+            <p class="score" id="compScore">Computer's Score: </p>
+        </section>
+        <!-- <button id="overall">Overall Result</button> -->
+        <input id="again" type="submit" onclick="window.location.reload();" value="Restart"/>
+        <script src="game.js"></script>
+    </main>
+</body>
+</html>

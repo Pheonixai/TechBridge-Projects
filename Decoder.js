@@ -11,3 +11,4 @@ function replace(sentence){
 };
 // replace("hello world");
 replace("svool dliow");
+replace("hello world");
